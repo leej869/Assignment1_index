@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body, html{
+	width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-size: 24px;
+	font-family: Arial;
+}
+
+body{
+	padding: 0.5rem;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li{
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+h1{
+	text-decoration: underline;
+	color: darkgray;
+}
+
+hr{
+	height: 2px;
+	background-color: darkgray;
+	border: none;
+	margin-top: 4rem;
+	margin-bottom: 0.5rem;
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: rgb(0,255,0);
+}
